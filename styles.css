@@ -34,7 +34,7 @@ p{
 /* sections */
 
 .colored-section{
-    background-color: #EB4747;
+    background-color: #ff4c68;
     color: #fff;
 }
 
@@ -85,7 +85,7 @@ p{
 /* features section */
 
 #features{
- padding: 7% 15%;
+ padding: 0;
  
  position: relative;
 }
@@ -95,12 +95,12 @@ p{
 }
 
 .icon{
-    color: #e85c71;
+    color: #db202c;
     margin-bottom: 1rem;
 }
 
 .icon:hover{
-    color:#a33041
+    color:#a3c3ed
 }
 
 /* testomonial section */
@@ -111,7 +111,7 @@ p{
 }
 
 #testimonials{
-    background-color: #F87474;
+    background-color: #ff4c68;
 }
 
 .test-img{
@@ -123,7 +123,7 @@ p{
 /* press */
 
 #press{
-    background-color: #F87474;
+    background-color: #ff4c68;
     padding-bottom: 3%;
 }
 
@@ -154,16 +154,24 @@ p{
 }
  
 /* footer section */
+#footer.container{
+    padding: 30px 0;
+}
 
 #footer{
     color:grey;
+    
+}
+.foot-text{
+    margin: 0;
 }
 
 .icon-f{
-    padding:0 7px;
-    size:100px;
-    font-size:2.5rem;
+    padding:0 5px;
+    size:50px;
+    font-size:2rem;
     color: black;
+    margin:0;
 }
 
 @media(max-width: 1028px) {
@@ -181,6 +189,7 @@ p{
     background:linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
     background-size:180% 180%;
     animation: gradient-animation 18s ease infinite;
+
 }
 
 @keyframes gradient-animation{
@@ -194,5 +203,3 @@ p{
         background-position:05 50%;
     }
 }
-        
-
